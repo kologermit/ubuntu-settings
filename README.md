@@ -72,7 +72,12 @@ docker ps
 git config --global user.email "kologermit@gmail.com"
 git config --global user.name kologermit
 ```
-# Убрать иконки с рабочего стола
+# Настройка рабочего стола
 ```bash
 dconf write /org/gnome/desktop/background/show-desktop-icons false
+gsettings set org.gnome.shell.extensions.ding show-home false
+gsettings set org.gnome.shell.extensions.ding show-trash false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+gsettings set org.gnome.desktop.background picture-uri "file://$HOME/desktop.jpg"
+gsettings set org.gnome.desktop.background picture-uri-dark "file://$HOME/desktop.jpg"
 ```
