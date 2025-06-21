@@ -56,7 +56,9 @@ sudo apt install -y \
   nano \
   docker-ce \
   docker-compose \
-  openssh-server
+  openssh-server \
+  vlc \
+  tldr
 sudo snap install mattermost-desktop
 mkdir -p ~/Downloads
 cd ~/Downloads
