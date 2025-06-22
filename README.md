@@ -58,7 +58,8 @@ sudo apt install -y \
   docker-compose \
   openssh-server \
   vlc \
-  tldr
+  tldr \
+  ntfs-3g
 sudo snap install mattermost-desktop
 sudo snap install obsidian --classic
 mkdir -p ~/Downloads
