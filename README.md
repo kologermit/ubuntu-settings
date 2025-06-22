@@ -60,6 +60,7 @@ sudo apt install -y \
   vlc \
   tldr
 sudo snap install mattermost-desktop
+sudo snap install obsidian --classic
 mkdir -p ~/Downloads
 cd ~/Downloads
 wget "https://cloudcdn-mar-57.cdn.yandex.net/download.cdn.yandex.net/browser/yandex/25_4_1_1132_80909/Yandex.deb"
