@@ -37,7 +37,6 @@ sudo apt install -y \
   git \
   kolourpaint \
   chrome-gnome-shell \
-  outline-client \
   gcc \
   g++ \
   cmake \
